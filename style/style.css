@@ -130,10 +130,27 @@ footer {
 
 @media screen and (max-width: 376px) {
     main {
-        padding: 1rem;
+        padding: 5.7rem 2rem 1rem;
+    }
+
+    main h1 {
+        font-size: 1.6rem;
+    }
+
+    main .description {
+        width: 100%;
+        line-height: 1.8;
     }
 
     .container {
         flex-direction: column;
+    }
+
+    .card {
+        min-height: 200px;
+    }
+
+    .card__description {
+        font-size: 14px;
     }
 }
