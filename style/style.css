@@ -150,6 +150,10 @@ footer {
         min-height: 200px;
     }
 
+    .card__img-container {
+        height: 30%; 
+    }
+
     .card__description {
         font-size: 14px;
     }
